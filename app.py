@@ -1,5 +1,5 @@
 from flask import Flask, remder_template, request, jsonify
-from pathlib __path__
+from pathlib import Path
 import json
 
 base_dir = Path(__file__).resolve().parent
